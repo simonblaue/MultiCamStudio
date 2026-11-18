@@ -19,6 +19,7 @@ services:
     tty: true
     stdin_open: true
     runtime: nvidia
+    restart: always
     environment:
       HOST_UID: "${UID}"
       HOST_GID: "${GID}"
@@ -32,6 +33,7 @@ services:
       HOME: /tmp
       npm_config_cache: /tmp/npm-cache
       CAMERA_SETTINGS_FILE: ${CAMERA_SETTINGS_FILE}
+      EYE_TRACKER_SETTINGS_FILE: ${EYE_TRACKER_SETTINGS_FILE:-/home/docker/workspace/cfg/eye_tracker_settings.json}
       CAMERA_CALIBRATION_FILE: ${CAMERA_CALIBRATION_FILE}
       CALIBRATION_DATA: ${CALIBRATION_DATA}
       TZ: Europe/Berlin
