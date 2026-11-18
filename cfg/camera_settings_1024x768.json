@@ -1,53 +1,61 @@
 {
-  "fps": 60,
+  "fps": 40,
   "img_width": 1024,
   "img_height": 768,
   "video_mode": "Mode1",
   "binning_vertical": 2,
   "pixel_format": "RGB8",
-  "master_serial": "20174578",
-  "master_line": "Line3",
+  "master_serial": "22216005",
+  "master_line": "Line2",
   "slave_line": "Line3",
   "save_dir": "/home/docker/workspace/data/recordings",
   "codec": "hevc_nvenc",
   "cams": [
     {
-      "serial": "19037266",
+      "serial": "20202480",
       "black_level": 8,
       "gain": 14,
-      "exposure_time": 4000,
+      "exposure_time": 6000,
       "img_offsetX": 0,
       "img_offsetY": 0
     },
     {
-      "serial": "19246521",
+      "serial": "22216005",
       "black_level": 8,
       "gain": 14,
-      "exposure_time": 4000,
+      "exposure_time": 6000,
       "img_offsetX": 0,
       "img_offsetY": 0
     },
     {
-      "serial": "20174578",
+      "serial": "25376963",
       "black_level": 8,
       "gain": 14,
-      "exposure_time": 4000,
+      "exposure_time": 6000,
       "img_offsetX": 0,
       "img_offsetY": 0
     },
     {
-      "serial": "19338645",
+      "serial": "22473007",
       "black_level": 8,
       "gain": 14,
-      "exposure_time": 4000,
+      "exposure_time": 6000,
       "img_offsetX": 0,
       "img_offsetY": 0
     },
     {
-      "serial": "19421325",
+      "serial": "22205591",
       "black_level": 8,
       "gain": 14,
-      "exposure_time": 4000,
+      "exposure_time": 6000,
+      "img_offsetX": 0,
+      "img_offsetY": 0
+    },
+    {
+      "serial": "19246523",
+      "black_level": 8,
+      "gain": 14,
+      "exposure_time": 6000,
       "img_offsetX": 0,
       "img_offsetY": 0
     }

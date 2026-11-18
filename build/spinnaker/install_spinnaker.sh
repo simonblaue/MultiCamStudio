@@ -14,11 +14,11 @@ set -e
 # echo "export LD_LIBRARY_PATH=/opt/spinnaker/lib:\$LD_LIBRARY_PATH" >> /root/.bashrc
 
 # Unpack the tarball
-tar -xf ./spinnaker-2.5.0.80-amd64-pkg.tar.gz
+tar -xf ./spinnaker-4.4.0.246-amd64.tar.gz
 
 # Run the installer
-cp ./install_spinnaker_auto.sh ./spinnaker-2.5.0.80-amd64/
-cd ./spinnaker-2.5.0.80-amd64
+cp ./install_spinnaker_auto.sh ./spinnaker-4.4.0.246-focal-amd64/
+cd ./spinnaker-4.4.0.246-focal-amd64
 sh ./install_spinnaker_auto.sh
 
 # Set environment variables

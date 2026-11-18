@@ -34,11 +34,11 @@ services:
       CAMERA_SETTINGS_FILE: ${CAMERA_SETTINGS_FILE}
       CAMERA_CALIBRATION_FILE: ${CAMERA_CALIBRATION_FILE}
       CALIBRATION_DATA: ${CALIBRATION_DATA}
+      TZ: Europe/Berlin
 
     volumes:
       - ./:/home/docker/workspace
       - /etc/localtime:/etc/localtime:ro
-      - /etc/timezone:/etc/timezone:ro
       
     devices:
       - /dev/bus/usb:/dev/bus/usb
